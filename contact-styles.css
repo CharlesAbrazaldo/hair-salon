@@ -1,0 +1,73 @@
+.Section {
+  display: flex;
+  background-color: cadetblue;
+  justify-content: center;
+  align-content: center;
+  height: 120px;
+  margin-top: 30px;
+  }
+
+  .logo{
+    font-size: 70px;
+    font-weight:bolder;
+    color: white;
+    overflow: visible;
+    border-style: solid;
+    border-color: teal;
+    background-color:lightsteelblue;
+    position: absolute;
+    top: 65px;
+    left: 25px;
+    padding: 24px;
+    font-size: 50px;
+    }
+
+  .links {
+      display: flex;
+      justify-content: space-around;
+      align-self:center;
+      width: 500px;
+      position: absolute;
+      left: 350px;
+      }
+
+.main-container {
+  flex-direction: row;
+  row-gap: 20px;
+  height: 100%;
+  background-color: aliceblue;
+}
+
+.main-text {
+  display: grid;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  row-gap: 10%;
+}
+
+.subtext {
+  font-size: small;
+  margin-bottom: 7%;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.contact-info {
+  font-size: 13px;
+  width: 20%;
+}
+
+.footer-content {
+  background: fixed;
+  background-color: cadetblue;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: small;
+  color: white;
+}

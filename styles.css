@@ -1,8 +1,163 @@
-.Navigation {
-  text-decoration: none;
-  color: black;
-  background-color: darkslategrey;
-  height: 60px;
-  padding: 30px;
-  margin: 10px 5px;
+.whole-body {
+  background-color: aliceblue
+}
+
+.Section {
+display: flex;
+background-color: cadetblue;
+justify-content: center;
+align-content: center;
+height: 120px;
+margin-top: 30px;
+}
+
+  .logo{
+  font-size: 70px;
+  font-weight:bolder;
+  color: white;
+  overflow: visible;
+  border-style: solid;
+  border-color:teal;
+  background-color:lightsteelblue;
+  position: absolute;
+  top: 65px;
+  left: 25px;
+  padding: 24px;
+  font-size: 50px;
+}
+
+.links {
+display: flex;
+justify-content: space-around;
+align-self:center;
+min-width: 500px;
+position: absolute;
+left: 350px;
+}
+
+.body-1{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 100px;
+}
+
+.body-2 {
+  margin-bottom: 10%;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-style: solid;
+  border-color: cadetblue;
+  background-color: white;
+  min-width: fit-content;
+}
+
+.photo-1{
+  padding: 90px;
+  font-weight:bold;
+  font-size: 30px;
+}
+
+.pics-2 {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 170px 170px;
+  overflow-wrap: normal;
+  align-content: center;
+  justify-content: center;
+  row-gap: 5px;
+  column-gap: 20px;
+}
+
+.content-2-container{
+margin: 6%;
+display: flex;
+flex-direction: row;
+}
+
+.featured {
+  border-style: solid;
+  margin-right: 13%;
+  padding: 15px;
+  background-color: white;
+  border-style: solid;
+  border-color: teal;
+  border-width: 7px;
+  max-width: 100%
+}
+
+.featured-title{
+  display: flex;
+  position: relative;
+  bottom: 6.5%;
+  background-color:lightsteelblue;
+  max-width: fit-content;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 25px;
+  color: white;
+}
+
+
+.hairstyle-text-words {
+border-style: solid;
+padding: 3%;
+margin-bottom: 20%;
+background-color: teal;
+border-width: 7px;
+border-color:cadetblue;
+color: white;
+font-family: fantasy;
+}
+
+.losing-hair {
+  border-style: solid;
+  padding: 15px;
+  border-width: 7px;
+  border-style: solid;
+  background-color: teal;
+  border-color: cadetblue;
+  
+}
+
+.hairstyle-title {
+  display: flex;
+  position: relative;
+  font-size: 25px;
+  bottom: 30;
+  background-color:lightsteelblue;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: fit-content;
+  color: white;
+}
+
+.losing-hair {
+  display:flex;
+  height: fit-content;
+}
+
+.losing-hair-text {
+  color: white;
+  display:flex;
+  align-items: center;
+}
+
+.footer-content {
+  background: fixed;
+  background-color: cadetblue;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: small;
+  color: white;
 }
