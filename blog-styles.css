@@ -1,0 +1,58 @@
+.whole-body {
+  background-color: aliceblue
+}
+
+.Section {
+display: flex;
+background-color: cadetblue;
+justify-content: center;
+align-content: center;
+height: 120px;
+margin-top: 30px;
+}
+
+  .logo{
+  font-size: 70px;
+  font-weight:bolder;
+  color: white;
+  overflow: visible;
+  border-style: solid;
+  border-color:teal;
+  background-color:lightsteelblue;
+  position: absolute;
+  top: 65px;
+  left: 25px;
+  padding: 24px;
+  font-size: 50px;
+}
+
+.links {
+display: flex;
+justify-content: space-around;
+align-self:center;
+min-width: 500px;
+position: absolute;
+left: 350px;
+}
+
+.content-container{
+background-color: aliceblue;
+}
+
+.content {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding: 20%;
+  height: 900px
+}
+
+.footer-content {
+  background: fixed;
+  background-color: cadetblue;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: small;
+  color: white;
+}
